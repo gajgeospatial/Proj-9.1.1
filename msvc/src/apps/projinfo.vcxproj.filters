@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\apps\projinfo.cpp">
+      <Filter>Source Files\Bin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A7BC6F60-8101-3885-9359-AE56899F0123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bin">
+      <UniqueIdentifier>{C70C3E6F-988E-3C05-B93E-8DCC5D656915}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
