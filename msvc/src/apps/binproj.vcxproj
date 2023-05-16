@@ -87,7 +87,7 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">proj_d</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">proj_d</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">proj_d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">projapp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">.exe</TargetExt>
@@ -105,7 +105,7 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">proj</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">proj</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">proj</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">projapp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">.exe</TargetExt>
@@ -231,7 +231,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_DATA="c:\OSGeo4W\share\proj";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_DATA="c:\\OSGeo4W\\share\\proj";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
@@ -361,7 +361,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_DATA="c:\OSGeo4W\share\proj";CMAKE_INTDIR="Release";%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;MUTEX_win32;PROJ_DATA="c:\\OSGeo4W\\share\\proj";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
