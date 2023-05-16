@@ -485,18 +485,6 @@
     <ClInclude Include="..\..\..\src\apps\proj_strtod.h" />
     <ClInclude Include="..\..\..\src\apps\optargpm.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ZERO_CHECK.vcxproj">
-      <Project>{DFC1AD22-96F4-37D8-A112-50F40073F463}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="..\proj.vcxproj">
-      <Project>{0A5E03F6-0F8E-345A-A42A-2711CCE2233D}</Project>
-      <Name>proj</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
